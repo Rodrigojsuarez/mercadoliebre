@@ -4,8 +4,11 @@
   "description": "",
   "main": "app.js",
   "scripts":{
-    "start": "node --watch app.js"
+    "start": "node app.js",
+    "test": "nodemon app.js"
+   
   },
+
   "keywords": [],
   "author": "",
   "license": "ISC",
